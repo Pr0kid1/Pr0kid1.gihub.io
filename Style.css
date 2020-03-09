@@ -1,6 +1,6 @@
 .navbar {
   overflow:auto;
-  background-color: #0000FF;
+  background-color:##1bc4bc;
   font-family: 'Raleway', sans-serif;
   box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
 }
@@ -40,4 +40,15 @@ background-color: lightblue;
   position: fixed;
   bottom:10px;
   right: 10px;
+}
+
+.textbox{
+    margin-top: 25px;
+    float: left;
+    background: #39728E;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 600px;
+    padding:9px;
 }
