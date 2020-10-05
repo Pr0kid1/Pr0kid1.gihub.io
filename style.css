@@ -1,6 +1,6 @@
 #ul.menu{
   list-style:inside square none;
-  float: left;
+  float:left;
 
 }
 
@@ -24,4 +24,8 @@ a:link{
   background-color:black;
   border-color:blue;
   font-size:19px;
+}
+
+h1 {
+  float:left;
 }
