@@ -1,0 +1,26 @@
+#ul.menu{
+  list-style:inside square none;
+
+}
+
+#menu li{
+  display:block;
+  border:1px solid green;
+  float:left;
+  background-color:rgb(238,238,238);
+  text-decoration:none;
+  overflow:hidden;
+  padding:11px;
+}
+
+a:link{
+  color: green;
+  text-decoration:none;
+}
+
+#menu  li:hover{
+  overflow:hidden;
+  background-color:black;
+  border-color:blue;
+  font-size:19px;
+}
