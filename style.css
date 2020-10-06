@@ -25,6 +25,8 @@ a:link{
   font-size:19px;
 }
 
-h1 {
-  float:right;
+p,h1  {
+  border:2px solid green;
+  float:left;
+  background-color: lightgreen;
 }
