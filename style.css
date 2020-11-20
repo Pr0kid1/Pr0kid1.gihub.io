@@ -1,21 +1,25 @@
 #ul.menu{
   list-style:inside square none;
   float:left;
+  float: Top;
+  text-align: left;
 }
 
 #menu li{
-  display:block;
   border:1px solid green;
   float:left;
   background-color:rgb(238,238,238);
-  text-decoration:none;
-  overflow:hidden;
   padding:11px;
+  width: 100px;
+  text-decoration: none;
 }
 
 a:link{
-  color: green;
-  text-decoration:none;
+  color: black;
+}
+
+a.active link{
+  background-color: blue
 }
 
 #menu  li:hover{
@@ -25,8 +29,56 @@ a:link{
   font-size:19px;
 }
 
-p,h1  {
-  border:2px solid green;
+h1 {
+  border:2px solid black;
   float:left;
-  background-color: lightgreen;
+  background-color: lightblue;
+  position: absolute;
+}
+
+body{
+  background-color:gray;
+  float:left;
+  background-repeat: repeat;
+}
+
+.favorietedingen{
+  border-radius:7px;
+  border:2px solid;
+  border-color:black;
+  position: fixed;
+  background-color:lightblue;
+}
+
+p{
+  border:1px solid;
+  float: left;
+  border-color:black;
+  background-color:lightblue;
+}
+
+#Idk{
+  background-color:lightblue;
+  border-color:black;
+  border:2px black;
+}
+
+ footer {
+  position:absolute;
+  overflow:auto;
+  list-style: inside square none;
+  bottom: 50px;
+  right: 10px;
+  font-size:25px;
+}
+
+footer:link {
+  color: red;
+}
+
+.games{
+  color: blue;
+  list-style-position: inside square none;
+  border: 5px solid;
+  background-color: lightblue;
 }

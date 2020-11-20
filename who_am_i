@@ -7,10 +7,10 @@
   </head>
   <body>
     <ul id="menu">
-     <li><a href="who am i.html">Home</a></li>
+     <li><a href="who_am_i.html">Home</a></li>
      <li><a href="favoriete.html">Me</a></li>
      <li><a href="contact.html">Contact</a></li>
-     <li><a href="Mijn leven.html">Levensverhaal </a></li>
+     <li><a href="mijn leven.html">Levensverhaal </a></li>
     </ul>
     <br></br>
    <br></br>
