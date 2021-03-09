@@ -1,8 +1,11 @@
 #ul.menu{
   list-style:inside square none;
+  display: block;
   float:left;
   float: Top;
   text-align: left;
+  text-decoration: none;
+  overflow:hidden;
 }
 
 #menu li{
@@ -12,6 +15,7 @@
   padding:11px;
   width: 100px;
   text-decoration: none;
+
 }
 
 a:link{
@@ -27,6 +31,7 @@ a.active link{
   background-color:black;
   border-color:blue;
   font-size:19px;
+  color: blue;
 }
 
 h1 {
@@ -58,9 +63,8 @@ p{
 }
 
 #Idk{
-  background-color:lightblue;
-  border-color:black;
-  border:2px black;
+  background-color:white;
+  border:1px black;
 }
 
  footer {
@@ -81,4 +85,9 @@ footer:link {
   list-style-position: inside square none;
   border: 5px solid;
   background-color: lightblue;
+}
+
+.table{
+  border: 1px:blue;
+
 }
