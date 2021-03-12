@@ -1,20 +1,20 @@
-#ul.menu{
-  list-style:inside square none;
-  display: block;
+#menu{
   float:left;
-  float: Top;
+  /* float: Top; */
   text-align: left;
   text-decoration: none;
   overflow:hidden;
 }
 
 #menu li{
-  border:1px solid green;
+  list-style:inside square none;
+  display: inline;
+  border:1px solid black;
   float:left;
-  background-color:rgb(238,238,238);
+  background-color:white;
   padding:11px;
   width: 100px;
-  text-decoration: none;
+  text-decoration:none;
 
 }
 
@@ -42,7 +42,7 @@ h1 {
 }
 
 body{
-  background-color:gray;
+  background-color:white;
   float:left;
   background-repeat: repeat;
 }
@@ -64,7 +64,7 @@ p{
 
 #Idk{
   background-color:white;
-  border:1px black;
+  border:2px black;
 }
 
  footer {
@@ -89,5 +89,13 @@ footer:link {
 
 .table{
   border: 1px:blue;
+
+}
+
+#foto_metis {
+  width: auto;
+  height: auto;
+
+
 
 }
