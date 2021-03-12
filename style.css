@@ -93,8 +93,13 @@ footer:link {
 }
 
 #foto_metis {
-  width: auto;
-  height: auto;
+  width:50px;
+  height:35px;
+  float: right;
+  position: absolute;
+
+}
+
 
 
 
