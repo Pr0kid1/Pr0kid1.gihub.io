@@ -56,10 +56,10 @@ body{
 }
 
 p{
-  border:1px solid;
-  float: left;
-  border-color:black;
-  background-color:lightblue;
+  border: 2px;
+  border-radius:20px;
+  text-align: left;
+  border-color: lightblue;
 }
 
 #Idk{
@@ -92,11 +92,13 @@ footer:link {
 
 }
 
-#foto_metis {
+#foto_metis{
   width:50px;
   height:35px;
-  float: right;
-  position: absolute;
+  float: left;
+  float: Top;
+  position: fixed;
+  border: 2px black;
 
 }
 
